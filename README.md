@@ -1,5 +1,5 @@
 # Sciunit_HydroShare_Implementation
-This repository has the implementation for the sciunit and Hydroshare
+This repository has the implementation for the sciunit and Hydroshare. It contains a python script to download and SCIUNIT and input data from hydroshare, run the model contained within the sciunit, and post the output back to hydroshare.
 
 The code uses Python Flask to trigger the processing of input files from Hydroshare. 
 By sending an HTTP GET request with the Hydroshare ID of the input files it will download them and run the engine.   
