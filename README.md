@@ -1,6 +1,8 @@
 # Sciunit_HydroShare_Implementation
 This repository has the implementation for the sciunit and Hydroshare. It contains a python script to download and SCIUNIT and input data from hydroshare, run the model contained within the sciunit, and post the output back to hydroshare.
+The sciunit folder contains some of the files in the sciunit. Build_modflow.py is the pre-processing data file. Workflow.sh is the script to run the the model with input data inside of the sciunit.
 
+The templates folder contains the HTML template for the login page. Server.py is the flask script.
 The code uses Python Flask to trigger the processing of input files from Hydroshare. 
 By sending an HTTP GET request with the Hydroshare ID of the input files it will download them and run the engine.   
 
